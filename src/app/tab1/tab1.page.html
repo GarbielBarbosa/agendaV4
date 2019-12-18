@@ -24,7 +24,7 @@
     <ion-row>
       <ion-col text-center>
         <ion-button (click)="saveContato()"
-          [disabled]="name == null || name == '' ||phone == null || phone == '' "
+          [disabled]="name == null || name == '' ||phone == null || phone == '' || !(phone.length > 13) " 
           color="success" expand="block">
           Cadastrar
           <ion-icon slot="end" name="checkmark"></ion-icon>
