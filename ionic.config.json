@@ -1,5 +1,7 @@
 {
   "name": "agendaV4",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

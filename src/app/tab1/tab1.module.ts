@@ -4,12 +4,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
-
+import { BrMaskerModule } from 'br-mask';
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    BrMaskerModule,
     RouterModule.forChild([{ path: '', component: Tab1Page }])
   ],
   declarations: [Tab1Page]
